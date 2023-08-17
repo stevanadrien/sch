@@ -1,0 +1,57 @@
+.nav-container {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.nav-left {
+  height: 100px;
+  width: 50%;
+  background-color: #ffefd900;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.nav-right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background-color: #ffefd900;
+  align-items: center;
+  float: right;
+}
+.s-logo {
+  height: 70px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+.contact-me {
+  float: right;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 20px;
+  border: px solid #262a56;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #262a56;
+}
+.other-menu {
+  float: right;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 20px;
+  border: 4px solid #262a56;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #262a56;
+}
+
+a {
+  text-decoration: none;
+}
